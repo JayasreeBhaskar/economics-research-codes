@@ -1,4 +1,4 @@
-/*==============================================================================
+/*
 FILE:     02_construct_tfp.do
 PURPOSE:  Build the household-wave working dataset and estimate farm-level
           TFP via Levinsohn-Petrin. This is the file that produces
@@ -23,7 +23,7 @@ NOTE: ETH_FINAL_plot.dta and ETH_FINAL_hh.dta (the inputs to this file) are
       Bentze, T., & Wollburg, P. (2025), Scientific Data, 12, 1843 (see
       00_setup.do). The collapse, TFP estimation, and everything downstream
       of that harmonised panel are original to this project.
-==============================================================================*/
+*/
 
 do "00_setup.do"
 use "$output/ETH_FINAL_plot.dta", clear
