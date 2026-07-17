@@ -1,8 +1,6 @@
 # Unobserved Productivity Differences and Heterogeneity in Soil Quality: Evidence from Ethiopia
 
-MSc extended essay, London School of Economics (2026). This repo contains the
-empirical pipeline: soil-quality index construction, panel merge, main
-specifications, robustness checks, and figures/tables.
+MSc extended essay, London School of Economics (LSE).
 
 ## Research question
 
