@@ -62,15 +62,7 @@ specifications and robustness checks — is original to this project.
 | `do/05_robustness.do` | Composite index, balanced subsample, attrition, IV, alternative-output-measure checks |
 | `do/06_figures_tables.do` | Descriptive figures and summary statistics table |
 
-## Result
-
-*[One or two sentences on your headline coefficient/finding go here — e.g.
-magnitude and significance of the soil-quality coefficient under the
-preferred Mundlak specification, and how it compares to the naive
-estimate.]*
-
-## Notes on reproducibility
+## Notes
 
 Raw LSMS-ISA files are not included (available directly from the World Bank
-Microdata Library). Path globals in `00_setup.do` should be updated to point
-to a local copy before running.
+Microdata Library).
