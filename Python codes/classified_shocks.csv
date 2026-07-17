@@ -1,0 +1,7 @@
+household_id,shock_description,shock_category
+HH001,Insufficient rainfall affecting crop yield,Drought / rainfall shortfall
+HH002,Household member illness affecting labor supply,"Health shock (illness, injury, death in household)"
+HH003,Excess rainfall damaging standing crops,Flood / excess rainfall
+HH004,Unfavorable change in output or input prices,Price shock (input or output)
+HH005,Loss of livestock,Livestock disease or loss
+HH006,Unspecified setback,Other / unclassified
