@@ -6,7 +6,9 @@ MSc extended essay, London School of Economics (LSE).
 
 Does variation in soil quality explain part of the persistent productivity
 gap between smallholder farms, once unobserved household heterogeneity
-(farmer ability, management practices) is accounted for?
+(farmer ability, management practices) is accounted for? Further, we assess the
+effect of transient and permanent wealth shocks, investment and education levels
+on farm productivity.
 
 ## Data
 
