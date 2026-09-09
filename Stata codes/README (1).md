@@ -22,26 +22,26 @@ harmonisation procedure described in Bentze, T., & Wollburg, P. (2025), "A
 longitudinal cross-country dataset on agricultural productivity and welfare
 in sub-Saharan Africa," *Scientific Data*, 12, 1843
 (https://doi.org/10.1038/s41597-025-05639-9). That harmonisation is not my
-own work. Everything from the soil-quality index construction onward — the
+own work. Everything from the soil-quality index construction onward - the
 TFP estimation approach, the Mundlak identification strategy, and all
-specifications and robustness checks — is original to this project.
+specifications and robustness checks - is original to this project.
 
 ## Method
 
-1. **Soil quality index** — three self-reported plot characteristics are
+1. **Soil quality index**: three self-reported plot characteristics are
    recoded to a common 1-4 ordinal scale, standardised, and combined into a
-   single index (and kept as separate components for the main
+   single index (kept as separate components for the main
    specification).
-2. **TFP estimation** — Levinsohn-Petrin production function estimation
-   (upstream of this excerpt; see `02_merge_panel.do` header) yields
+2. **TFP estimation**: Levinsohn-Petrin production function estimation
+   (see `02_merge_panel.do` header) yields
    household-plot-wave log TFP.
-3. **Identification** — the main challenge is that farmers with better
+3. **Identification**: the main challenge is that farmers with better
    underlying ability may both select onto better land and achieve higher
    TFP for reasons unrelated to the land itself. The preferred specification
    uses a **Mundlak** device (within-household means of time-varying
    controls) to purge the soil-quality coefficient of this bias, alongside
-   wave and agro-ecological-zone fixed effects.
-4. **Robustness** — a composite soil index (addressing collinearity between
+   wave and agro-ecological-zone (AEZ) fixed effects.
+4. **Robustness**: a composite soil index (addressing collinearity between
    components), a balanced-subsample check (attrition), an attrition probit,
    an IV specification using soil quality as an instrument for land input in
    the production function itself, and re-estimating TFP on harvest
